@@ -1,6 +1,6 @@
 import CardBackground from './img/CardBackground.png';
-import BenepassLogo from './img/BenepassLogo.png';
-import VisaLogo from './img/VisaLogo.png';
+import BenepassLogo from './img/BenepassLogo.svg';
+import VisaLogo from './img/VisaLogo.svg';
 import { maskCCNumber, formatCCNumber } from './lib/card-number';
 import { useState } from 'react';
 
