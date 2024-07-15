@@ -2,7 +2,7 @@ export const maskCCNumber = (ccNumber: string): string => {
   var cleaned = ('' + ccNumber).replace(/\D/g, '')
   var match = cleaned.match(/^(\d{4})(\d{4})(\d{4})(\d{4})$/)
   if(match) {
-    return `**** ${match[4]}`
+    return `•••• ${match[4]}`
   }
 
   return ''
