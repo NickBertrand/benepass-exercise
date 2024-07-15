@@ -9,6 +9,7 @@ function App() {
   const testData = {
     ccNumber: '1234567812341732',
     cvc: '345',
+    expiration: '08/28',
     zip: '66062'
   }
 
@@ -35,7 +36,7 @@ function App() {
           <div className='flex flex-row'>
             <div className='flex flex-col mr-8'>
               <div className='uppercase opacity-80 text-xs'>Valid Thru</div>
-              <div>08/28</div>
+              <div>{testData.expiration}</div>
             </div>
             <div className='flex flex-col relative'>
               <div className='uppercase opacity-80 text-xs'>CVC</div>
